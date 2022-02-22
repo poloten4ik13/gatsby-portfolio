@@ -1,0 +1,49 @@
+{
+  "name": "gatsby-starter-hello-world",
+  "private": true,
+  "description": "A simplified bare-bones starter for Gatsby",
+  "version": "0.1.0",
+  "license": "0BSD",
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "start": "gatsby develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "dependencies": {
+    "@formspree/react": "^2.2.4",
+    "@googlemaps/react-wrapper": "^1.1.24",
+    "@react-three/drei": "^8.10.0",
+    "@react-three/fiber": "^7.0.26",
+    "@react-three/postprocessing": "^2.1.2",
+    "framer-motion": "^6.2.4",
+    "gatsby": "^4.6.2",
+    "gatsby-plugin-image": "^2.6.0",
+    "gatsby-plugin-sass": "^5.7.0",
+    "gatsby-plugin-sharp": "^4.6.0",
+    "gatsby-source-contentful": "^7.5.0",
+    "gatsby-source-filesystem": "^4.6.0",
+    "gatsby-transformer-sharp": "^4.6.0",
+    "google-map-react": "^2.1.10",
+    "gsap": "^3.9.1",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-icons": "^4.3.1",
+    "react-tsparticles": "^1.41.0",
+    "sass": "^1.49.7",
+    "three": "^0.137.5"
+  },
+  "devDependencies": {
+    "prettier": "^2.5.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
+  },
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  }
+}

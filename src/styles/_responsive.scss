@@ -1,0 +1,76 @@
+@use "variebles" as *;
+@include media-sm {
+  .logo {
+    top: 0.8rem ;
+    left: 2vw;
+    font-size: 1.5rem;
+  }
+  .hero-main{
+    width: 100vw;
+    top: 9rem;
+    left: 4vw;
+
+
+    .hero-name, .hero-hello {
+      font-size: 4rem;
+      line-height: 4rem;
+      font-family: 'Audiowide', cursive;
+    }
+    .hero-dev{
+      font-size: 3.5rem;
+      font-family: 'Audiowide', cursive;
+      line-height: 5rem;
+    }
+
+    .button-container {
+      top: 3rem;
+      left: 12vw;
+      a {
+        span{
+          font-family: 'Audiowide', cursive;
+        }
+      }
+    }
+  }
+
+
+
+}
+@include media-md {
+  .logo {
+    top: 1.6rem;
+    left: 11vw;
+    font-size: 2rem;
+  }
+
+  .menu-btn {
+    visibility: hidden;
+  }
+
+  .nav {
+    visibility: visible;
+    z-index: 3;
+    background-color: transparent;
+    width: 90vw;
+
+    .menu-nav {
+      display: block;
+      transform: translateY(0);
+      height: 100%;
+      background: transparent;
+      text-align: right;
+      padding: 1rem;
+      top: 0;
+
+      &__item {
+        display: inline;
+        padding-right: 1.5rem;
+      }
+
+      &__link {
+        font-size: 1.5rem;
+        padding: 0;
+      }
+    }
+  }
+}

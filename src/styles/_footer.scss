@@ -1,0 +1,18 @@
+.footer-main{
+  background:#000505;
+  width: 100%;
+  color: rgb(29,29,29);
+  bottom: 0;
+  display: block;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  padding: 0.7rem 0 0.6rem 0;
+
+  .footer-info{
+    margin: 0;
+  }
+  a{
+    text-decoration: none;
+    color: rgba(164, 2, 183, 1);
+  }
+}

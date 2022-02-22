@@ -1,0 +1,26 @@
+@use "variebles" as * ;
+.about-main{
+  position:absolute;
+  top: 14rem;
+  left: 6rem;
+  color: white;
+  z-index: 6;
+  font-family: 'Open Sans', sans-serif;
+h1{
+  color: $four-color ;
+}
+p{
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+}
+.button-container {
+    position: relative;
+    margin-top: 1.5rem;
+    margin-left: -1rem;
+
+
+  }
+}
+canvas {
+  height: 100vh;
+}

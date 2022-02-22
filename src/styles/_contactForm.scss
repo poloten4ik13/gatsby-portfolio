@@ -1,0 +1,43 @@
+@use "variebles" as *;
+
+.form-container {
+  position: absolute;
+  z-index: 1;
+  width: 50%;
+  height: 100%;
+  color: $primary-color;
+
+}
+form{
+  position: relative;
+  display: flex;
+  flex-direction:column;
+  width: 25vw;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  top: 30%;
+  text-align: center;
+
+
+}
+#email {
+  height: 5vh;
+  background-color: rgb(43,43,43);
+  color: $primary-color;
+  border: none;
+  margin-bottom: 1rem;
+
+}
+
+#message {
+  background-color: rgb(43,43,43);
+  color: $primary-color;
+  height: 7vw;
+  border: none;
+}
+button {
+  background: #1A9C6E;
+  border: none;
+}

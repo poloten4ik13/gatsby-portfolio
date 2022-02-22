@@ -1,0 +1,85 @@
+@use 'variebles' as *;
+
+.proj-body{
+  .footer-main{
+    display: none;
+  }
+}
+
+
+.proj-main {
+  height: 98vh;
+  background: black;
+}
+
+.bg {
+  height: 100vh;
+  .project-back {
+    height: 100vh;
+  }
+}
+.back-flur {
+  background:  rgba(17,17,17,0.8);;
+  position: absolute;
+  width: 22vw;
+  height: 20vh;
+  top: 22vh;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
+  text-align: center;
+  border-radius: 3px;
+  clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+  opacity: 0;
+}
+svg {
+  width: 1em;
+  margin: 2em auto;
+  display: block;
+  clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+}
+
+.container {
+  position: absolute;
+  top: 0;
+  height: 100vh;
+  width: 100%;
+  display: grid;
+  place-content: center ;
+
+
+}
+
+.content {
+  color: #00FFFD;
+  text-align: center;
+
+
+  h1 {
+    font-size: 6rem;
+    margin-top: 12rem;
+    margin-bottom: 0;
+    font-weight: normal;
+
+  }
+
+  p {
+    font-size: 2rem;
+  }
+
+  .text-reveal {
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    transition: all 1.5s;
+    transform: translateY(-3em);
+  }
+
+}
+
+.locations-container {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}

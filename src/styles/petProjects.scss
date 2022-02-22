@@ -1,0 +1,69 @@
+@use "variebles" as *;
+
+.local {
+  clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+  opacity: 0;
+  transform: translateY(2rem);
+  position: relative;
+
+
+  .petImage {
+    width: 100%;
+    height: 12rem;
+    object-fit: cover;
+  }
+.wrapper {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-color: rgba(0,0,0,0.5);
+
+}
+  .info {
+    background:#AFB0AE;
+    padding: 2.5rem;
+    position: relative;
+    margin-top: -.5rem;
+
+
+    p {
+      font-size: 1rem;
+    }
+    .title {
+      font-size: 2rem;
+      margin-top: -5em;
+      margin-bottom: 3em;
+      font-weight: bold;
+      color: $primary-color;
+      text-align: right;
+    }
+    .description{
+      top: 2rem;
+    }
+  }
+  .button-wrapper{
+    position: relative;
+    top: .5rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: end;
+    width: 100%;
+
+    .button-pet{
+      cursor: pointer;
+      width: 6vw;
+      height: 2vw;
+      border-radius: 5px;
+      box-shadow: none;
+      margin-left: 5rem;
+      border: $four-color solid 1px;
+
+      &:hover{
+background-color: rgba(0, 173,154,68);
+      }
+    }
+  }
+}
+

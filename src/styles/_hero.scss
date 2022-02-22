@@ -1,0 +1,38 @@
+@use "variebles" as *;
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&family=Lilita+One&family=Open+Sans:wght@700&display=swap");
+
+.hero-img {
+ height: 96vh;
+ position: relative;
+}
+.hero-main {
+ position: absolute;
+ width: 60vw;
+ z-index: 3;
+ left: 12vw;
+ top: 20%;
+ text-align: left;
+ color: #BCCFC0;
+font-family:  'Open Sans', sans-serif;
+ font-weight: 700;
+
+
+ .hero-hello {
+  margin-bottom: .5rem;
+  font-size: 6rem;
+ }
+.hero-name {
+ margin: 0;
+ font-size: 6rem;
+ #n4{
+  opacity: 0 !important;
+ }
+}
+ .hero-dev{
+  font-size: 6rem;
+  margin-top: .5rem;
+  #n10{
+   opacity: 0 !important;
+  }
+ }
+}
